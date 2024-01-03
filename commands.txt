@@ -1,0 +1,21 @@
+change drive in cmd ----- cd\ then drive name like ------ H:
+
+
+change directory in bash ----- cd
+change drive in bash ----- cd /H/
+to list the directory or files ----- ls
+to display hidden files ----- ls -a
+git initialisation -----> git init
+creating a new file ----- touch hello.txt or touch readme.md
+checking the status of the files ----- git status 
+
+untracked files means whatever the changes you are making in this file doesnt gets saved. To track the files you have to commit the file after editing
+
+
+     working directory ----> git add ----> staging area ----> git commit ----> repository
+
+staging the files -----> git add . ( for staging all the files or with specific name of the file for individually adding the file)
+to remove the staged file -----> git rm --cached filename
+
+to check the changes made to the repository -----> git log
+to commit -----> git commit -m "message for this commiting"
