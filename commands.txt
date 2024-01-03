@@ -19,3 +19,5 @@ to remove the staged file -----> git rm --cached filename
 
 to check the changes made to the repository -----> git log
 to commit -----> git commit -m "message for this commiting"
+to create a remote connection to git repository -----> git remote add origin link
+to push the files into the repository -----> git push -u name branchname
